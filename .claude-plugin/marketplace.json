@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sequenzia-cowork",
+  "description": "A collection of Claude Code plugins for testing, development, and workflow automation",
+  "owner": {
+    "name": "Stephen Sequenzia"
+  },
+  "plugins": [
+    {
+      "name": "hello-world",
+      "description": "Tests basic interaction patterns between users and Claude Code including greetings, quizzes, and text processing",
+      "version": "0.1.0",
+      "author": {
+        "name": "Stephen Sequenzia"
+      },
+      "source": "./plugins/hello-world",
+      "category": "testing"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "description": "Tests basic interaction patterns between users and Claude Code",
+  "author": {
+    "name": "Stephen Sequenzia"
+  },
+  "license": "MIT",
+  "keywords": ["hello-world", "interaction", "testing", "starter"]
+}
