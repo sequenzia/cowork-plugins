@@ -9,7 +9,7 @@
     {
       "name": "hello-world",
       "description": "Tests basic interaction patterns between users and Claude Code including greetings, quizzes, and text processing",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Stephen Sequenzia"
       },
