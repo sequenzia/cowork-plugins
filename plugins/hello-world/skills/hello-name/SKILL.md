@@ -1,5 +1,5 @@
 ---
-name: Hello Name
+name: hello-name
 description: Use when user wants a personalized greeting, says "hello my name is", wants to introduce themselves, or asks to be greeted by name. Also use when user invokes with a first name argument for a quick personalized hello.
 allowed-tools: AskUserQuestion
 ---

@@ -1,5 +1,5 @@
 ---
-name: Hello Echo
+name: hello-echo
 description: Use when user asks to analyze, transform, or process text
 model: haiku
 ---

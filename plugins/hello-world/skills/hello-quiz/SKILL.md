@@ -1,5 +1,5 @@
 ---
-name: Hello Quiz
+name: hello-quiz
 description: Use when user wants a developer quiz or coding style assessment
 allowed-tools: AskUserQuestion
 ---

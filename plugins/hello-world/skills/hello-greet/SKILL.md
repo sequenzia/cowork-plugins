@@ -1,5 +1,5 @@
 ---
-name: Hello Greet
+name: hello-greet
 description: Use when user says hello, wants a greeting, or asks about environment context
 allowed-tools: Bash(git:*), Bash(pwd:*), Bash(date:*)
 ---
