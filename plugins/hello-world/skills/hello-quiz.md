@@ -1,5 +1,6 @@
 ---
-description: Interactive quiz that builds a developer profile from your answers
+name: Hello Quiz
+description: Use when user wants a developer quiz or coding style assessment
 allowed-tools: AskUserQuestion
 ---
 

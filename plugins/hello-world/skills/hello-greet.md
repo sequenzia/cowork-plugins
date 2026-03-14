@@ -1,5 +1,6 @@
 ---
-description: Greet the user with environment context and start a conversation
+name: Hello Greet
+description: Use when user says hello, wants a greeting, or asks about environment context
 allowed-tools: Bash(git:*), Bash(pwd:*), Bash(date:*)
 ---
 

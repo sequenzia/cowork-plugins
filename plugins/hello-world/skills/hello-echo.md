@@ -1,18 +1,14 @@
 ---
-description: Process and transform user input text
-argument-hint: [text to process]
+name: Hello Echo
+description: Use when user asks to analyze, transform, or process text
 model: haiku
 ---
 
 # Hello Echo
 
-If no arguments were provided (i.e., `$ARGUMENTS` is empty), respond with:
-"Usage: `/hello-echo [some text]` — I'll analyze and transform your text!"
-Then stop.
+Take the text from the user's message and produce the following analysis:
 
-Otherwise, take the text from `$ARGUMENTS` and produce the following analysis:
-
-**Input:** "$ARGUMENTS"
+**Input:** (the user's text)
 
 **Analysis:**
 - **Word count:** Count the number of words

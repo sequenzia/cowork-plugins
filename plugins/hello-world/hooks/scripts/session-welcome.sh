@@ -4,7 +4,7 @@ cat << 'EOF'
 {
   "hookSpecificOutput": {
     "hookEventName": "SessionStart",
-    "additionalContext": "The hello-world plugin is active. It provides three commands for testing interaction patterns:\n- /hello-greet — Greet the user with environment context\n- /hello-quiz — Interactive developer profile quiz\n- /hello-echo [text] — Process and transform text input\n\nBriefly mention these are available if the user seems to be exploring or getting started."
+    "additionalContext": "The hello-world plugin is active. It provides three skills that auto-trigger based on user intent:\n- Hello Greet — Triggers when the user says hello or wants a greeting\n- Hello Quiz — Triggers when the user wants a developer quiz or coding style assessment\n- Hello Echo — Triggers when the user asks to analyze, transform, or process text\n\nThese skills activate automatically — no slash commands needed."
   }
 }
 EOF

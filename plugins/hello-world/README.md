@@ -7,20 +7,20 @@ A simple Claude Code plugin for testing basic interaction patterns between users
 This plugin exercises core interaction modalities:
 - **One-shot communication** with environment context
 - **Interactive multi-question input** via AskUserQuestion
-- **Argument processing** and text transformation
+- **Text analysis** and transformation
 - **Event-driven hooks** via SessionStart
 
-## Commands
+## Skills
 
-| Command | Description |
-|---------|-------------|
-| `/hello-greet` | Greet the user with current directory, git branch, and date |
-| `/hello-quiz` | Interactive quiz that builds a developer profile from your answers |
-| `/hello-echo [text]` | Process and transform user-provided text |
+| Skill | Triggers When |
+|-------|---------------|
+| Hello Greet | User says hello, wants a greeting, or asks about environment context |
+| Hello Quiz | User wants a developer quiz or coding style assessment |
+| Hello Echo | User asks to analyze, transform, or process text |
 
 ## Hooks
 
-- **SessionStart**: Displays a brief welcome message mentioning available commands when a new session begins.
+- **SessionStart**: Displays a brief welcome message noting available skills when a new session begins.
 
 ## Installation
 
